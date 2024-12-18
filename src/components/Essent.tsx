@@ -25,7 +25,7 @@ export default function Essential() {
         <Image
           width={300}
           height={300}
-          alt={"image"}
+          alt={""}
           src={"/images/ex3.png"}
           className="md:w-1/2 lg:w-1/3 xl:w-1/4"
         />
@@ -35,7 +35,7 @@ export default function Essential() {
           <span className="font-semibold pl-3">Icons</span>
           <br />
           <br />
-          <ul className="ess-ul">
+          <ul >
             <li>Air Force 1</li>
             <li>Huarache</li>
             <li>Air Max 90</li>
@@ -46,7 +46,7 @@ export default function Essential() {
           <span className="font-semibold pl-4">Shoes</span>
           <br />
           <br />
-          <ul className="ess-ul">
+          <ul >
             <li>All Shoes</li>
             <li>Custom Shoes</li>
             <li>Jordan Shoes</li>
@@ -57,7 +57,7 @@ export default function Essential() {
           <span className="font-semibold pl-3">Clothing</span>
           <br />
           <br />
-          <ul className="ess-ul">
+          <ul >
             <li>All Clothing</li>
             <li>Modest Clothing</li>
             <li>Hoodies & Pullovers</li>
@@ -65,14 +65,14 @@ export default function Essential() {
           </ul>
         </div>
         <div className="ess-i px-2 w-[260px] mb-12 mt-10 md:ml-4 lg:ml-6 xl:ml-8">
-          <span className="font-semibold pl-3">{`kid's`}</span>
+          <span className="font-semibold pl-3">{`Kid's`}</span>
           <br />
           <br />
-          <ul className="ess-ul">
+          <ul>
             <li>Infant & Toddler Shoes</li>
             <li>{`Kid's`} Shoes</li>
             <li>{`Kid's`} Jordan Shoes</li>
-            <li>{`Kid's`}Basketball Shoes</li>
+            <li>{`Kid's`} Basketball Shoes</li>
           </ul>
         </div>
       </div>

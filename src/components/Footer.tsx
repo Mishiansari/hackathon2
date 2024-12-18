@@ -11,8 +11,8 @@ import { IoLocationOutline } from "react-icons/io5";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-8 px-6">
-      <div className="flex flex-col md:flex-row justify-between items-center">
+    <footer className="bg-black text-white py-8 px-6 ">
+      <div className="flex  md:flex-row justify-between items-center">
         {/* Column 1 */}
         <div className="flex flex-col md:flex md:w-1/3">
           <h3 className="text-sm font-semibold mb-4">FIND A STORE</h3>
@@ -35,7 +35,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Column 2 */}
+      
         <div className="flex flex-col md:flex md:w-1/3">
           <h3 className="text-sm font-semibold mb-4">GET HELP</h3>
           <ul className="space-y-2 text-sm">
@@ -61,7 +61,7 @@ export default function Footer() {
             </li>
             <li>
               <Link href="#" className="hover:underline">
-                Contact Us on (link unavailable)
+                Contact Us on (Nike.com)
               </Link>
             </li>
             <li>
