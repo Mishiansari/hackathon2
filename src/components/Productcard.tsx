@@ -16,7 +16,7 @@ interface Product {
   const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     return (
       <div className="flex flex-wrap  hover:bg-slate-300">
-        <img
+        <Image
           src={product.Image}
           alt={product.name}
           

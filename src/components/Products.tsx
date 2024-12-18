@@ -7,7 +7,7 @@ interface Product {
   category: string;
   price: string;
   color: string;
-  Image: string;
+  Image:string;
 }
 
 const products: Product[] = [
@@ -73,7 +73,7 @@ const products: Product[] = [
     category: 'Men\'s T-Shirt',
     price: '2,295.00',
     color: '1 Colour',
-    Image: '/imges2/s8.png',
+Image: '/imges2/s8.png',
   },
   {
     id: 9,

@@ -26,7 +26,7 @@ export default function Page() {
             />
             <div className="ml-4">
               <h3 className="text-lg font-semibold">Nike Dri-FIT ADV TechKnit Ultra</h3>
-              <p className="text-[#757575]">Men's Short-Sleeve Running Top</p>
+              <p className="text-[#757575]">Mens Short-Sleeve Running Top</p>
               <p className="text-[#757575]">Ashen Slate/Cobalt Bliss</p>
               <div className='flex gap-5 text-[#757575]'>
                 <p>Size</p>
@@ -44,8 +44,8 @@ export default function Page() {
             <p className="font-bold">MRP: ₹3,895.00</p>
           </div>
         </div>
-        {/* Item 2 */}
-        <div className="flex items-center justify-between border-b pb-[24px] mb-[24px] pt-[24px] pl-[]">
+      
+        <div className={"flex items-center justify-between border-b pb-[24px] mb-[24px] pt-[24px]"}>
           <div className="flex items-center">
             <div className='bg-[white] w-[150px] h-[150px] '>
 
@@ -53,7 +53,7 @@ export default function Page() {
            
             <div className="ml-4">
               <h3 className="text-lg font-semibold">Nike Air Max 97 SE</h3>
-              <p className="text-gray-600">Men's Shoes</p>
+              <p className="text-gray-600">Mens Shoes</p>
               <p className="text-gray-600">Flat Pewter/Light Bone/Black/White</p>
               <div className='flex gap-5 text-[#757575]'>
                 <p>Size</p>
