@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { ArrowLeft, ArrowRight,  } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
@@ -13,10 +13,10 @@ const Carsoul = () => {
             <div className='flex items-center justify-between'>
                 <span>shop</span>
                 <div className='p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800 mx-3'>
-                <ChevronLeft />
+                <ArrowLeft />
                 </div>
                 <div className='p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800'>
-                <ChevronRight />
+                <ArrowRight />
                 </div>
             </div>
 

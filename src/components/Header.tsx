@@ -9,8 +9,10 @@ export default function Header() {
       {/* Top bar */}
       <div className="bg-[#fafafa] border-b flex justify-between items-center px-10 py-2 md:text-[11px] sm:text-[9px] text-[8px] font-medium">
         <Image src="/images/logo.png" alt="logo" width={19.2} height={24} />
-        <div></div>
-        <div className="flex md:gap-4 sm:gap-3 gap-2 text-black font-semibold hover:text-blue-800">
+        <div>
+         
+        </div>
+        <div className="flex md:gap-4 sm:gap-3 gap-2 text-black font-semibold text-[14px] hover:text-blue-800">
           <Link href="/location" className="hover:bg-blue-200">
             Find Link Store
           </Link>
@@ -32,6 +34,7 @@ export default function Header() {
       <div className="flex flex-wrap justify-between items-center px-6 py-4">
         <div className="flex items-center">
           <Image src="/images/logo2.png" alt="Nike Logo" width={58.85} height={20.54} />
+          <Link href="#"></Link>
         </div>
         <nav className="flex gap-4 md:gap-6 text-black font-semibold md:text-[16px] sm:text-[14px] text-[10px]">
           <Link href="/products" className="hover:bg-gray-300 text-black whitespace-nowrap">

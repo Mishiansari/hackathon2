@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { ArrowLeft, ArrowRight, } from 'lucide-react'
 
 const Gearpup = () => {
   return (
@@ -22,14 +22,15 @@ const Gearpup = () => {
             <div className='hidden md:flex  items-center mb-2 opacity-0 '>
                 <span>shop</span>
                 <div className='p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800 mx-3'>
-                <ChevronLeft />
+                <ArrowLeft />
                 </div>
                 <div className='p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800'>
-                <ChevronRight />
+                <ArrowRight />
                 </div>
                 
             </div>
                 <Image
+                 className='hover:scale-105 duration-300'
                 src={'/images/grep1.png'}
                 alt='man dress'
                 width={280}
@@ -58,16 +59,17 @@ const Gearpup = () => {
                 <span className='text-xs sm:text-sm w-20'>Shop {`Men's`}</span>
 
                 <div className='  p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800 mx-1 md:mx-3 '>
-                <ChevronLeft />
+                <ArrowLeft />
                 </div>
 
                 <div className=' p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800 '>
-                <ChevronRight />
+                <ArrowRight />
                 </div>
 
             </div>
             
                <Image
+                className='hover:scale-105 duration-300'
                 src={'/images/grep2.png'}
                 alt='man dress' 
                 width={280}
@@ -104,16 +106,17 @@ const Gearpup = () => {
                 <span>shop</span>
                 
                 <div className='p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800 mx-3'>
-                <ChevronLeft />
+                <ArrowLeft />
                 </div>
 
                 <div className='p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800'>
-                <ChevronRight />
+                <ArrowRight/>
                 </div>
 
             </div>
                 
                 <Image
+                 className='hover:scale-105 duration-300'
                 src={'/images/grep3.png'}
                 alt='man dress'
                 width={280}
@@ -139,13 +142,14 @@ const Gearpup = () => {
             <div className='hidden md:flex items-center justify-end  pr-10 mb-2 '>
                 <span className='text-xs sm:text-sm w-28'>Shop {`Women's`}</span>
                 <div className='p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800 mx-1 md:mx-3'>
-                <ChevronLeft />
+                <ArrowLeft />
                 </div>
                 <div className='p-2 bg-gray-100 text-zinc-400 rounded-full hover:bg-gray-200 hover:text-zinc-800'>
-                <ChevronRight />
+                <ArrowRight />
                 </div>
             </div>
                <Image
+                className='hover:scale-105 duration-300'
                 src={'/images/grep4.png'}
                 alt='man dress'
                 width={280}

@@ -10,7 +10,7 @@ const Dont = () => {
       </div>
       <div className="flex justify-center">
         <Image
-          className="md:w-1/2 lg:w-2/3 xl:w-3/4"
+          className="md:full"
           src="/images/dnt1.png"
           alt="banner"
           width={1200}

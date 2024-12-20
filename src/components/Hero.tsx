@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="flex justify-center flex-col items-center bg-[#fafafa] m-4 md:m-10 lg:m-16">
       <div className="flex justify-center flex-col items-center pb-4 md:pb-10 lg:pb-16">
-        <h3 className="text-xl text-black font-bold md:text-2xl lg:text-3xl">
+        <h3 className="text-xl text-black font-bold md:text-2xl lg:text-3xl pt-4">
           Hello Nike App
         </h3>
         <p className="text-sm text-gray-600 md:text-base lg:text-lg">
@@ -20,7 +20,7 @@ export default function Hero() {
         alt="shoes"
         width={1344}
         height={700}
-        className="md:w-full lg:w-3/4 xl:w-2/3"
+        className="md:w-full"
       />
       <div className="flex justify-center items-center flex-col p-10 md:p-16 lg:p-20 text-center">
         <p className="text-sm md:text-base lg:text-lg">First Look</p>

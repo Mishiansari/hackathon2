@@ -42,7 +42,7 @@ export default function Joinus(){
                         <p className="text-[#BCBCBC] text-[12px]">and <u>Terms of Use</u></p>
                     </div>
                     <Link href="/joinus"><Button className="w-80 ronded-sm my-6 bg-[#111111] hover:bg-gray-200 text-white hover:text-black">JOIN US</Button></Link>
-                    <p className="text-[#BCBCBC] text-[12px]">Already a Member <Link href={"/login"}><u className="text-black">Sign In?</u></Link></p>
+                    <p className="text-[#BCBCBC] text-[12px]">Already a Member <Link href={"/sign-up"}><u className="text-black">sign-up</u></Link></p>
                 </div>
             </section>
         </main>

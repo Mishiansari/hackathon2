@@ -13,21 +13,22 @@ export default function Essential() {
           height={300}
           alt=""
           src={"/images/ex1.png"}
-          className="md:w-1/2 lg:w-1/3 xl:w-1/4"
+          className=" hover:scale-105 duration-300"
         />
         <Image
-          width={300}
+         width={300}
           height={300}
           alt={""}
           src={"/images/ex2.png"}
-          className="md:w-1/2 lg:w-1/3 xl:w-1/4"
+          className="  hover:scale-105 duration-300"
         />
         <Image
+       
           width={300}
           height={300}
           alt={""}
           src={"/images/ex3.png"}
-          className="md:w-1/2 lg:w-1/3 xl:w-1/4"
+          className="hover:scale-105 duration-300"
         />
       </div>
       <div className="flex flex-wrap justify-center items-center md:px-36 lg:px-48">

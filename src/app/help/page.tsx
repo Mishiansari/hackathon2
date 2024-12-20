@@ -22,10 +22,10 @@ const help = () => {
       <div className="flex w-[2353px] h-[1042px] mt-[28px] ml-[28px]">
       <div className="faqs  px-5 lg:px-11">
         
-        <span className="text-2xl font-semibold my-6 uppercase text-center">
+        <span className="text-[40px]  sm:text-[20px] font-semibold my-6 uppercase text-center">
           WHAT PAYMENT OPTIONS CAN I USE ON NIKE ORDERS?
         </span>
-        <p>
+        <p className="font-medium  sm:text-[10px] md:text-[12px] lg:text-[14px] text-[16px] leading-[28px]">
           We want to make buying your favourite Nike shoes and gear online fast
           and easy, and we accept the following payment options:
         </p>
@@ -34,7 +34,7 @@ const help = () => {
           <li>Visa Electron, Maestro</li>
           <li>Apple Pay, PayTM</li>
         </ul>
-        <p className="font-medium text-[16px] leading-[28px]">
+        <p className="font-medium  sm:text-[10px] md:text-[12px] lg:text-[14px] text-[16px] leading-[28px]">
         Nike Members can store multiple debit or credit cards in their profile for faster checkout. If youre not already a Member, join <br/>us today.
         </p>
         <div className="flex gap-5">
@@ -47,7 +47,7 @@ const help = () => {
         <h3 className="text-xl font-semibold mb-4 mt-10">FAQs</h3>
         <div>
           <h4 className="font-bold text-[16px] leading-[28px] text-[#111111]">Does my card need international purchases enabled?</h4>
-          <p className="font-normal text-[16px] leading-[28px] text-[#111111]">
+          <p className="font-normal  sm:text-[10px] md:text-[12px] lg:text-[14px] text-[16px] leading-[28px] text-[#111111]">
           Yes, we recommend asking your bank to enable international purchases on your card. You will be notified at checkout<br/> if international purchases need to be enabled.
           </p>
         </div>
@@ -57,18 +57,18 @@ const help = () => {
 
         <div className="mt-4">
           <h4 className="font-bold text-[16px] leading-[28px] text-[#111111]">Can I pay for my order with multiple methods?</h4>
-          <p className="font-normal text-[16px] leading-[28px] text-[#111111]">No, payment for Nike orders can be split between multiple payment methods.</p>
+          <p className="font-normal  sm:text-[10px] md:text-[12px] lg:text-[14px] text-[16px] leading-[28px] text-[#111111]">No, payment for Nike orders can be split between multiple payment methods.</p>
         </div>
 
         <div className="mt-4">
           <h4 className="font-bold text-[16px] leading-[28px] text-[#111111]">What payment method is accepted for SNKRS orders?</h4>
-          <p className="font-normal text-[16px] leading-[28px] text-[#111111]">You can use any accepted credit card to pay for your SNKRS order.</p>
+          <p className="font-normal  sm:text-[10px] md:text-[12px] lg:text-[14px] text-[16px] leading-[28px] text-[#111111]">You can use any accepted credit card to pay for your SNKRS order.</p>
         </div>
 
         
         <div className="mt-4">
           <h4 className="font-bold text-[16px] leading-[28px] text-[#111111]">Why dont I see Apple Pay as an option?</h4>
-          <p className="font-normal text-[16px] leading-[28px] text-[#111111]">To see Apple Pay as an option in the Nike App or on Nike.com, you ll need to use a compatible Apple device running the latest<br/> OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, youll need to use Safari to use<br/> Apple Pay on Nike.com.</p>
+          <p className="font-normal  sm:text-[10px] md:text-[12px] lg:text-[14px] text-[16px] leading-[28px] text-[#111111]">To see Apple Pay as an option in the Nike App or on Nike.com, you ll need to use a compatible Apple device running the latest<br/> OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, youll need to use Safari to use<br/> Apple Pay on Nike.com.</p>
         </div>
 
         <div className='mt-4'>
@@ -89,10 +89,10 @@ const help = () => {
             
             />
           </div>
-          <p className='font-medium text-[16px] leading-[24px] text-[#757575] mt-4'>RELATED</p>
+          <p className='font-medium  sm:text-[10px] md:text-[14px] text-[16px] leading-[24px] text-[#757575] mt-4'>RELATED</p>
           <div className="mt-4">
           <h4 className="font-bold text-[16px] leading-[28px] text-[#111111] hover:underline">WHAT ARE NIKE DELIVERY OPTIONS?</h4>
-          <p className="font-bold text-[16px] leading-[28px] text-[#111111] hover:underline ">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</p>
+          <p className="font-bold sm:text-[10px] md:text-[14px] text-[16px] leading-[28px] text-[#111111] hover:underline ">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</p>
         </div>
         </div>
         </div>

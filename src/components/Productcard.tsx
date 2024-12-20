@@ -22,7 +22,7 @@ interface Product {
           width={440}
           height={440}
           
-          className="w-[660px] "
+          className="w-[660px] hover:scale-105 duration-300"
         />
         <div className="mx-2 mt-2">
         <h4 className="font-semibold text-[#9E3500] text-sm">Just In</h4>
